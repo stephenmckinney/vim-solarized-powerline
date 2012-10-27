@@ -1,11 +1,4 @@
-" Disabled:
-" Add the following line into the first theme group to see the highlight
-" group
-" \ , 'currhigroup'
-"
-" Line info taken out - I know which line number I'm on from the gutter
-"\ , 'lineinfo'
-let g:Powerline#Themes#skwp#theme = Pl#Theme#Create(
+let g:Powerline#Themes#solarized#theme = Pl#Theme#Create(
 	\ Pl#Theme#Buffer(''
 		\ , 'fugitive:branch'
 		\ , 'fileinfo'
@@ -15,6 +8,8 @@ let g:Powerline#Themes#skwp#theme = Pl#Theme#Create(
 		\ , Pl#Segment#Split()
 		\ , 'sass:status'
 		\ , 'rvm:string'
+		\ , 'filetype'
+		\ , 'scrollpercent'
 		\ , 'paste_indicator'
 	\ ),
 	\
