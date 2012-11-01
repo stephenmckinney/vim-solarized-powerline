@@ -1,5 +1,6 @@
-let g:Powerline#Themes#solarized#theme = Pl#Theme#Create(
+let g:Powerline#Themes#short#theme = Pl#Theme#Create(
 	\ Pl#Theme#Buffer(''
+		\ , 'paste_indicator'
 		\ , 'fugitive:branch'
 		\ , 'fileinfo'
 		\ , 'flags.mod'
@@ -10,7 +11,6 @@ let g:Powerline#Themes#solarized#theme = Pl#Theme#Create(
 		\ , 'rvm:string'
 		\ , 'filetype'
 		\ , 'scrollpercent'
-		\ , 'paste_indicator'
 	\ ),
 	\
 	\ Pl#Theme#Buffer('command_t'
