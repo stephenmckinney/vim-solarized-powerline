@@ -22,7 +22,6 @@ let g:Powerline#Themes#long#theme = Pl#Theme#Create(
 		\ , ['static_str.name', 'Command-T']
 		\ , Pl#Segment#Truncate()
 		\ , Pl#Segment#Split()
-		\ , ['raw.line', '%10(Match #%l%)']
 	\ ),
 	\
 	\ Pl#Theme#Buffer('gundo', Pl#Match#Any('gundo_tree')
