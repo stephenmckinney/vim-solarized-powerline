@@ -1,28 +1,30 @@
 " This colorscheme is based on Solarized-dark colors, setting the
-" approximate values for the Solarized palette, using the
-" XTERM limited 256 terminal color values.
+" specific values for the Solarized palette, using the
+" terminal's 16 ansi color values.
+"
+" Using 16 ansi color values gives the best results for terminal Vim.
 call Pl#Hi#Allocate({
 	\ 'darkestblue'    : 24,
 	\
-	\ 'base03'         : [234, 0x002b36],
-	\ 'base02'         : [235, 0x073642],
-	\ 'base01'         : [240, 0x586e75],
-	\ 'base00'         : [241, 0x657b83],
-	\ 'base0'          : [244, 0x839496],
-	\ 'base1'          : [245, 0x93a1a1],
-	\ 'base2'          : [254, 0xeee8d5],
-	\ 'base3'          : [230, 0xfdf6e3],
-	\ 'yellow'         : [136, 0xb58900],
-	\ 'orange'         : [166, 0xcb4b16],
-	\ 'red'            : [160, 0xdc322f],
-	\ 'magenta'        : [125, 0xd33682],
-	\ 'violet'         : [61, 0x6c71c4],
-	\ 'blue'           : [33, 0x268bd2],
-	\ 'cyan'           : [37, 0x2aa198],
-	\ 'green'          : [64, 0x859900],
+	\ 'base03'         : [8, 0x002b36],
+	\ 'base02'         : [0, 0x073642],
+	\ 'base01'         : [10, 0x586e75],
+	\ 'base00'         : [11, 0x657b83],
+	\ 'base0'          : [12, 0x839496],
+	\ 'base1'          : [14, 0x93a1a1],
+	\ 'base2'          : [7, 0xeee8d5],
+	\ 'base3'          : [15, 0xfdf6e3],
+	\ 'yellow'         : [3, 0xb58900],
+	\ 'orange'         : [9, 0xcb4b16],
+	\ 'red'            : [1, 0xdc322f],
+	\ 'magenta'        : [5, 0xd33682],
+	\ 'violet'         : [13, 0x6c71c4],
+	\ 'blue'           : [4, 0x268bd2],
+	\ 'cyan'           : [6, 0x2aa198],
+	\ 'green'          : [2, 0x859900],
 	\ })
 
-let g:Powerline#Colorschemes#solarized256#colorscheme= Pl#Colorscheme#Init([
+let g:Powerline#Colorschemes#solarized16_dark#colorscheme= Pl#Colorscheme#Init([
 	\ Pl#Hi#Segments(['SPLIT'], {
 		\ 'n': ['base3', 'base02'],
 		\ 'N': ['base3', 'base02'],
