@@ -1,17 +1,17 @@
-" This colorscheme is based on Solarized-dark colors, setting the
+" This colorscheme is based on Solarized-light colors, setting the
 " approximate values for the Solarized palette, using the
 " XTERM limited 256 terminal color values.
 call Pl#Hi#Allocate({
 	\ 'darkestblue'    : 24,
 	\
-	\ 'base3'         : [234, 0x002b36],
-	\ 'base2'         : [235, 0x073642],
-	\ 'base1'         : [240, 0x586e75],
-	\ 'base0'         : [241, 0x657b83],
-	\ 'base00'          : [244, 0x839496],
-	\ 'base01'          : [245, 0x93a1a1],
-	\ 'base02'          : [254, 0xeee8d5],
-	\ 'base03'          : [230, 0xfdf6e3],
+	\ 'base3'          : [234, 0x002b36],
+	\ 'base2'          : [235, 0x073642],
+	\ 'base1'          : [240, 0x586e75],
+	\ 'base0'          : [241, 0x657b83],
+	\ 'base00'         : [244, 0x839496],
+	\ 'base01'         : [245, 0x93a1a1],
+	\ 'base02'         : [254, 0xeee8d5],
+	\ 'base03'         : [230, 0xfdf6e3],
 	\ 'yellow'         : [136, 0xb58900],
 	\ 'orange'         : [166, 0xcb4b16],
 	\ 'red'            : [160, 0xdc322f],

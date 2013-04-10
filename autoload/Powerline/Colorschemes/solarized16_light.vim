@@ -1,4 +1,4 @@
-" This colorscheme is based on Solarized-dark colors, setting the
+" This colorscheme is based on Solarized-light colors, setting the
 " specific values for the Solarized palette, using the
 " terminal's 16 ansi color values.
 "
@@ -6,14 +6,14 @@
 call Pl#Hi#Allocate({
 	\ 'darkestblue'    : 24,
 	\
-	\ 'base3'         : [8, 0x002b36],
-	\ 'base2'         : [0, 0x073642],
-	\ 'base1'         : [10, 0x586e75],
-	\ 'base0'         : [11, 0x657b83],
-	\ 'base00'          : [12, 0x839496],
-	\ 'base01'          : [14, 0x93a1a1],
-	\ 'base02'          : [7, 0xeee8d5],
-	\ 'base03'          : [15, 0xfdf6e3],
+	\ 'base3'          : [8, 0x002b36],
+	\ 'base2'          : [0, 0x073642],
+	\ 'base1'          : [10, 0x586e75],
+	\ 'base0'          : [11, 0x657b83],
+	\ 'base00'         : [12, 0x839496],
+	\ 'base01'         : [14, 0x93a1a1],
+	\ 'base02'         : [7, 0xeee8d5],
+	\ 'base03'         : [15, 0xfdf6e3],
 	\ 'yellow'         : [3, 0xb58900],
 	\ 'orange'         : [9, 0xcb4b16],
 	\ 'red'            : [1, 0xdc322f],
