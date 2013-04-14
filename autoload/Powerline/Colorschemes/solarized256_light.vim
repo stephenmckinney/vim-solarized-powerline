@@ -4,14 +4,14 @@
 call Pl#Hi#Allocate({
 	\ 'darkestblue'    : 24,
 	\
-	\ 'base3'          : [234, 0x002b36],
-	\ 'base2'          : [235, 0x073642],
-	\ 'base1'          : [240, 0x586e75],
-	\ 'base0'          : [241, 0x657b83],
-	\ 'base00'         : [244, 0x839496],
-	\ 'base01'         : [245, 0x93a1a1],
-	\ 'base02'         : [254, 0xeee8d5],
-	\ 'base03'         : [230, 0xfdf6e3],
+	\ 'base03'         : [234, 0x002b36],
+	\ 'base02'         : [235, 0x073642],
+	\ 'base01'         : [240, 0x586e75],
+	\ 'base00'         : [241, 0x657b83],
+	\ 'base0'          : [244, 0x839496],
+	\ 'base1'          : [245, 0x93a1a1],
+	\ 'base2'          : [254, 0xeee8d5],
+	\ 'base3'          : [230, 0xfdf6e3],
 	\ 'yellow'         : [136, 0xb58900],
 	\ 'orange'         : [166, 0xcb4b16],
 	\ 'red'            : [160, 0xdc322f],
@@ -24,8 +24,8 @@ call Pl#Hi#Allocate({
 
 let g:Powerline#Colorschemes#solarized256_light#colorscheme= Pl#Colorscheme#Init([
 	\ Pl#Hi#Segments(['SPLIT'], {
-		\ 'n': ['base3', 'base02'],
-		\ 'N': ['base3', 'base02'],
+		\ 'n': ['base03', 'base2'],
+		\ 'N': ['base03', 'base2'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['mode_indicator'], {
@@ -38,43 +38,43 @@ let g:Powerline#Colorschemes#solarized256_light#colorscheme= Pl#Colorscheme#Init
 	\
 	\ Pl#Hi#Segments(['branch', 'raw', 'filesize'], {
 		\ 'n': ['base03', 'blue'],
-		\ 'N': ['base00', 'base02'],
+		\ 'N': ['base0', 'base2'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['fileinfo', 'filename', 'filepath'], {
 		\ 'n': ['base3', 'darkestblue'],
-		\ 'N': ['base00', 'base03'],
+		\ 'N': ['base0', 'base3'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['fileinfo.filepath'], {
-		\ 'n': ['base2'],
-		\ 'N': ['base00'],
+		\ 'n': ['base02'],
+		\ 'N': ['base0'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['fileinfo.flags'], {
-		\ 'n': ['base03'],
-		\ 'N': ['base01'],
-		\ 'i': ['base03'],
+		\ 'n': ['base3'],
+		\ 'N': ['base1'],
+		\ 'i': ['base3'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['currenttag', 'fullcurrenttag', 'fileformat', 'fileencoding', 'scrollpercent', 'pwd', 'filetype', 'rvm:string', 'rvm:statusline', 'virtualenv:statusline', 'charcode', 'currhigroup'], {
-		\ 'n': ['base1', 'base02'],
-		\ 'N': ['base00', 'base02'],
+		\ 'n': ['base01', 'base2'],
+		\ 'N': ['base0', 'base2'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['lineinfo'], {
-		\ 'n': ['base03', 'base1'],
-		\ 'N': ['base00', 'base03'],
+		\ 'n': ['base3', 'base01'],
+		\ 'N': ['base0', 'base3'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['lineinfo.line.tot'], {
-		\ 'n': ['base01'],
-		\ 'N': ['base00'],
+		\ 'n': ['base1'],
+		\ 'N': ['base0'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['errors'], {
-		\ 'n': ['orange', 'base02'],
-		\ 'N': ['base00', 'base02'],
+		\ 'n': ['orange', 'base2'],
+		\ 'N': ['base0', 'base2'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['paste_indicator', 'ws_marker'], {
@@ -83,31 +83,31 @@ let g:Powerline#Colorschemes#solarized256_light#colorscheme= Pl#Colorscheme#Init
 	\
 	\ Pl#Hi#Segments(['static_str'], {
 		\ 'n': ['base3', 'violet'],
-		\ 'N': ['base1', 'base02'],
-		\ 'i': ['base3', 'base02'],
+		\ 'N': ['base01', 'base2'],
+		\ 'i': ['base03', 'base2'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['command_t:static_str.name', 'gundo:static_str.name', 'lustyexplorer:static_str.name', 'minibufexplorer:static_str.name', 'nerdtree:raw.name', 'tagbar:static_str.name'], {
 		\ 'n': ['base3', 'violet'],
-		\ 'N': ['base00', 'base03'],
+		\ 'N': ['base0', 'base3'],
 		\ }),
 	\
 	\ Pl#Hi#Segments([ 'command_t:raw.line', 'gundo:static_str.buffer', 'lustyexplorer:static_str.buffer', 'tagbar:static_str.buffer'], {
-		\ 'n': ['base1', 'base02'],
-		\ 'N': ['base00', 'base02'],
+		\ 'n': ['base01', 'base2'],
+		\ 'N': ['base0', 'base2'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['command_t:SPLIT', 'gundo:SPLIT', 'lustyexplorer:SPLIT', 'minibufexplorer:SPLIT', 'nerdtree:SPLIT', 'tagbar:SPLIT'], {
-		\ 'n': ['base1', 'base02'],
-		\ 'N': ['base00', 'base02'],
+		\ 'n': ['base01', 'base2'],
+		\ 'N': ['base0', 'base2'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['ctrlp:focus', 'ctrlp:byfname'], {
-		\ 'n': ['base1', 'base02'],
+		\ 'n': ['base01', 'base2'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['ctrlp:prev', 'ctrlp:next'], {
-		\ 'n': ['base1', 'base02'],
+		\ 'n': ['base01', 'base2'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['ctrlp:item'], {
@@ -115,23 +115,23 @@ let g:Powerline#Colorschemes#solarized256_light#colorscheme= Pl#Colorscheme#Init
 		\ }),
 	\
 	\ Pl#Hi#Segments(['ctrlp:pwd'], {
-		\ 'n': ['base1', 'base02'],
+		\ 'n': ['base01', 'base2'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['ctrlp:marked'], {
-		\ 'n': ['base1', 'base02'],
+		\ 'n': ['base01', 'base2'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['ctrlp:count'], {
-		\ 'n': ['base1', 'base02'],
+		\ 'n': ['base01', 'base2'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['ctrlp:SPLIT'], {
-		\ 'n': ['base1', 'base02'],
+		\ 'n': ['base01', 'base2'],
 		\ }),
   \
   \ Pl#Hi#Segments(['status'], {
-		\ 'n': ['green', 'base02'],
-		\ 'N': ['base01', 'base02'],
+		\ 'n': ['green', 'base2'],
+		\ 'N': ['base1', 'base2'],
     \ }),
 \ ])
